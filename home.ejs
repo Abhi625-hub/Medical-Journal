@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html>
+<head><title>Medical Journal</title></head>
+<body>
+  <h1>Welcome to MedicalJournal</h1>
+  <a href="/questions">View Questions</a> | <a href="/about">About</a>
+  <form action="/submit-question" method="POST">
+    <h2>Ask a Question</h2>
+    <input name="askedBy" placeholder="Your name" required><br>
+    <input name="title" placeholder="Title" required><br>
+    <textarea name="body" placeholder="Describe your question" required></textarea><br>
+    <button type="submit">Submit</button>
+  </form>
+</body>
+</html>
